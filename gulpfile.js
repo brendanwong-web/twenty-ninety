@@ -39,7 +39,7 @@ const css = () => {
 }
 
 const html = () => {
-  return gulp.run("eleventy")()
+  return gulp.run("eleventy --pathprefix 'twenty-ninety'")()
 }
 
 const js = () => {

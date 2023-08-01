@@ -1,8 +1,10 @@
 # dependencies
-node_modules/
+/node_modules
 
 # project build
-dist/
+/dist
+
+/.vscode
 
 # mac files
 .DS_Store
@@ -12,6 +14,3 @@ dist/
 
 # netlify-cli config
 .netlify/state.json
-
-# logs and errors
-yarn-error.log
